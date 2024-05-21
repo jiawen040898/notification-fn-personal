@@ -180,7 +180,7 @@ export class BaseFunction<
                     `${id}-security-group`,
                     StringParameter.valueFromLookup(
                         scope,
-                        '/talent-management-fn/VPC_SECURITY_GROUP_IDS',
+                        '/notification-fn/VPC_SECURITY_GROUP_IDS',
                     ),
                 ),
             ],
