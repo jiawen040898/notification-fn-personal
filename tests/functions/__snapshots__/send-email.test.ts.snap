@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sendEmail should pass sending email 1`] = `
+[
+  [
+    SendEmailCommand {
+      "input": {
+        "Destination": {
+          "ToAddresses": [
+            "dav@emai.com",
+          ],
+        },
+        "Message": {
+          "Body": {
+            "Html": {
+              "Charset": "UTF-8",
+              "Data": "<html>Hello David 2024</html>",
+            },
+          },
+          "Subject": {
+            "Charset": "UTF-8",
+            "Data": "Hello world MT Program",
+          },
+        },
+        "ReplyToAddresses": [],
+        "Source": "=?utf-8?Q?Nestl=C3=A9?= via Pulsifi <no-reply@pulsifi.me>",
+        "Tags": [
+          {
+            "Name": "emailCommunicationType",
+            "Value": "application_shortlist",
+          },
+        ],
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`sendEmail should pass sending email with email template data  1`] = `"Hello world MT Program"`;
+
+exports[`sendEmail should pass sending email with email template data  2`] = `"<html>Hello David 2024</html>"`;
+
+exports[`sendEmail should pass sending email with email template data  3`] = `
+[
+  [
+    SendEmailCommand {
+      "input": {
+        "ConfigurationSetName": "tracking",
+        "Destination": {
+          "ToAddresses": [
+            "dav@emai.com",
+          ],
+        },
+        "Message": {
+          "Body": {
+            "Html": {
+              "Charset": "UTF-8",
+              "Data": "<html>Hello </html>",
+            },
+          },
+          "Subject": {
+            "Charset": "UTF-8",
+            "Data": "Please submit your nomination for Q1 FC",
+          },
+        },
+        "ReplyToAddresses": [],
+        "Source": " via Pulsifi <no-reply@pulsifi.me>",
+        "Tags": [
+          {
+            "Name": "emailCommunicationType",
+            "Value": "employee_feedback_nomination_requested",
+          },
+        ],
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`sendEmail validateEmailTemplateVariableLink should throw error if link is invalid 1`] = `"Invalid URL format for variable key: invite_link"`;
+
+exports[`sendEmail validateEmailTemplateVariableLink should throw error if url is invalid 1`] = `"Invalid URL format for variable key: employee_app_url"`;

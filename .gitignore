@@ -1,0 +1,29 @@
+# package directories
+node_modules
+jspm_packages
+coverage
+
+# Serverless directories
+.serverless
+
+# misc
+.webpack
+.build
+.esbuild
+*.log
+_warmup
+.npmrc
+.env
+/dist
+.idea
+
+# OS
+.DS_Store
+
+# cache
+.eslintcache
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+cdk.context.json

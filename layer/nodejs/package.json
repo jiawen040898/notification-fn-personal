@@ -1,0 +1,12 @@
+{
+    "dependencies": {
+        "@pulsifi/fn": "2.3.0",
+        "@pusher/push-notifications-server": "1.2.6",
+        "axios": "^1.6.0",
+        "liquidjs": "10.8.4",
+        "pg": "8.11.3",
+        "pusher": "5.2.0",
+        "rfc2047": "4.0.1",
+        "typeorm": "0.3.17"
+    }
+}

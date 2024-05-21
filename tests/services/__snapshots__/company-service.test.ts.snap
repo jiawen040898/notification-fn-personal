@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompanyService getCompanyData should log error if error occurs: logger.error 1`] = `
+[
+  [
+    "Fail to getCompanyData",
+    {
+      "err": [Error: AxiosError],
+      "url": "https://alb.test.pulsifi.me/identity/v1.0/public/companies/123",
+    },
+  ],
+]
+`;
+
+exports[`CompanyService getCompanyData should return cached data if available 1`] = `
+{
+  "id": 123,
+  "locales": [
+    {
+      "is_default": false,
+      "locale": "en-US",
+    },
+    {
+      "is_default": true,
+      "locale": "pt-BR",
+    },
+  ],
+  "name": "test company",
+  "slug": "test-company",
+  "timezone": "Asia/Kuala_Lumpur",
+}
+`;
+
+exports[`CompanyService getCompanyData should return expected data from api 1`] = `
+{
+  "id": 123,
+  "locales": [
+    {
+      "is_default": false,
+      "locale": "en-US",
+    },
+    {
+      "is_default": true,
+      "locale": "pt-BR",
+    },
+  ],
+  "name": "test company",
+  "slug": "test-company",
+  "timezone": "Asia/Kuala_Lumpur",
+}
+`;
+
+exports[`CompanyService getCompanyData should return expected data from api: axios.get 1`] = `
+[
+  [
+    "https://alb.test.pulsifi.me/identity/v1.0/public/companies/123",
+  ],
+]
+`;

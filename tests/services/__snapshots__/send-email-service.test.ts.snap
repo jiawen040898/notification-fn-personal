@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getEmailTemplate should pass getting correct email template when there are two and above same email communication type in a company 1`] = `
+{
+  "body_in_html": "<html>Hello {{first_name}} {{year}}</html>",
+  "company_id": 1,
+  "created_at": Any<Date>,
+  "created_by": 1,
+  "email_communication_type": "application_shortlist",
+  "id": 2,
+  "is_deleted": false,
+  "language": "en-US",
+  "notification_event_type": null,
+  "sender_name": "Sender",
+  "subject": "Hello world {{job_title}}",
+  "updated_at": Any<Date>,
+  "updated_by": 1,
+  "usage": "client",
+}
+`;
+
+exports[`getEmailTemplate should pass getting email template if email communication type is not provided 1`] = `
+{
+  "body_in_html": "<html>Hello {{first_name}} {{year}}</html>",
+  "company_id": 1,
+  "created_at": Any<Date>,
+  "created_by": 1,
+  "email_communication_type": "application_shortlist",
+  "id": 1,
+  "is_deleted": false,
+  "language": "en-US",
+  "notification_event_type": null,
+  "sender_name": "Sender",
+  "subject": "Hello world {{job_title}}",
+  "updated_at": Any<Date>,
+  "updated_by": 1,
+  "usage": "client",
+}
+`;
+
+exports[`getEmailTemplate should pass getting email template if email template id is not provided 1`] = `
+{
+  "body_in_html": "<html>Hello {{first_name}} {{year}}</html>",
+  "company_id": 1,
+  "created_at": Any<Date>,
+  "created_by": 1,
+  "email_communication_type": "application_shortlist",
+  "id": 1,
+  "is_deleted": false,
+  "language": "en-US",
+  "notification_event_type": null,
+  "sender_name": "Sender",
+  "subject": "Hello world {{job_title}}",
+  "updated_at": Any<Date>,
+  "updated_by": 1,
+  "usage": "client",
+}
+`;

@@ -1,0 +1,2237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TalentManagementNotificationService notifyEmployeeFeedbackRecommendationCompleted should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_recommendation_ready","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyEmployeeFeedbackRecommendationCompleted should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"employee_feedback_recommendation_ready","icon":"feedback","created_by":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_recommendation_ready","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackManagerDirectReportResultReady should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"boon.lay@gmail.com","recipient_group":"user","email_communication_type":"manager_feedback_result_direct_report_ready","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackManagerDirectReportResultReady should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"manager_feedback_result_direct_report_ready","icon":"feedback","created_by":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"boon.lay@gmail.com","recipient_group":"user","email_communication_type":"manager_feedback_result_direct_report_ready","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackManagerNominationAdminAmendment should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"boon.lay@gmail.com","recipient_group":"user","email_communication_type":"manager_feedback_nomination_admin_amendment","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackManagerNominationAdminAmendment should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"manager_feedback_nomination_admin_amendment","icon":"feedback","created_by":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"boon.lay@gmail.com","recipient_group":"user","email_communication_type":"manager_feedback_nomination_admin_amendment","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackManagerNominationApprovalDue should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"boon.lay@gmail.com","recipient_group":"user","email_communication_type":"manager_feedback_nomination_approval_reminder","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackManagerNominationApprovalDue should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"manager_feedback_nomination_approval_due","icon":"feedback","created_by":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"boon.lay@gmail.com","recipient_group":"user","email_communication_type":"manager_feedback_nomination_approval_reminder","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackManagerNominationAutoApproved should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"boon.lay@gmail.com","recipient_group":"user","email_communication_type":"manager_feedback_nomination_auto_approved","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackManagerNominationAutoApproved should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"manager_feedback_nomination_auto_approved","icon":"feedback","created_by":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"boon.lay@gmail.com","recipient_group":"user","email_communication_type":"manager_feedback_nomination_auto_approved","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackNominationAdminAmendment should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_nomination_admin_amendment","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackNominationAdminAmendment should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"employee_feedback_nomination_admin_amendment","icon":"feedback","created_by":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_nomination_admin_amendment","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackNominationAmendmentApproved should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_nomination_amendment_approved","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackNominationAmendmentApproved should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"employee_feedback_nomination_amendment_approved","icon":"feedback","created_by":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_nomination_amendment_approved","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackNominationApprovalRequest should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"boon.lay@gmail.com","recipient_group":"user","email_communication_type":"manager_feedback_nomination_approval_requested","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackNominationApprovalRequest should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"manager_feedback_nomination_approval_requested","icon":"feedback","created_by":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"boon.lay@gmail.com","recipient_group":"user","email_communication_type":"manager_feedback_nomination_approval_requested","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackNominationApproved should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_nomination_approved","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackNominationApproved should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"employee_feedback_nomination_approved","icon":"feedback","created_by":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_nomination_approved","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackNominationRequest should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_nomination_requested","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackNominationRequest should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"employee_feedback_nomination_requested","icon":"feedback","created_by":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_nomination_requested","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackNominationSubmissionDue should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_nomination_submission_reminder","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackNominationSubmissionDue should not trigger push notification if user_account_id not more 0 2`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_nomination_submission_reminder","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackNominationSubmissionDue should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"employee_feedback_nomination_due","icon":"feedback","created_by":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_nomination_submission_reminder","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackNominationSubmissionDue should run without error 2`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"employee_feedback_nomination_due","icon":"feedback","created_by":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_nomination_submission_reminder","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackRevieweeResponseReady should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"changi.bay@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_reviewee_response_requested","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackRevieweeResponseReady should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"employee_feedback_reviewee_response_requested","icon":"feedback","created_by":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"changi.bay@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_reviewee_response_requested","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackRevieweeResponseSubmissionDue should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"changi.bay@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_reviewee_response_submission_reminder","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackRevieweeResponseSubmissionDue should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"employee_feedback_reviewee_submission_due","icon":"feedback","created_by":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"changi.bay@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_reviewee_response_submission_reminder","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackRevieweeResultReady should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_result_ready","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackRevieweeResultReady should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"employee_feedback_result_ready","icon":"feedback","created_by":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_result_ready","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackReviewerResponseReady should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"changi.bay@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_reviewer_response_requested","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackReviewerResponseReady should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"employee_feedback_reviewer_response_requested","icon":"feedback","created_by":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"changi.bay@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_reviewer_response_requested","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackReviewerResponseSubmissionDue should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"changi.bay@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_reviewer_response_submission_reminder","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyFeedbackReviewerResponseSubmissionDue should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"employee_feedback_reviewer_submission_due","icon":"feedback","created_by":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"changi.bay@gmail.com","recipient_group":"user","email_communication_type":"employee_feedback_reviewer_response_submission_reminder","company_id":2,"variables":{"company":{"name":"Bitcoin Incorporation"},"cycle":{"name":"FC Q1"},"deadline":"2022-01-01","email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"},"receiver":{"email":"kylie.tan@gmail.com","first_name":"Kylie","id":"Anything","employee_id":"Anything","last_name":"Tan","user_account_id":124,"full_name":"Kylie Tan"},"provider":{"email":"changi.bay@gmail.com","first_name":"Changi","id":"Anything","employee_id":"Anything","last_name":"Bay","user_account_id":128,"full_name":"Changi Bay"},"manager":{"email":"boon.lay@gmail.com","first_name":"Boon","last_name":"Lay","user_account_id":125,"full_name":"Boon Lay","employee_id":"Anything"},"url":"https://url","call_to_action":{"url":"https://url"}},"email_template":{"body_in_html":"<p>Hello, this is a feedback reminder </p>","reply_email":"reply","reply_name":"reply","sender_email":"sender","sender_name":"sender","subject":"Please complete your feedback"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyGoalAndTaskDue should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":5,"user_account_id":2,"message_category":"employee_assignment_overdue","icon":"alert","created_by":2,"variables":{"employee_goals_due_count":1,"employee_tasks_due_count":1,"employee_id":"uuid","employee_first_name":"First","employee_last_name":"Last","employee_email":"test@tmeil.com","due_date":"2022-11-23","due_type":"today","employee_user_account_id":2,"company_id":5}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"test@tmeil.com","recipient_group":"user","email_communication_type":"employee_assignment_reminder_notification","company_id":5,"variables":{"employee_goals_due_count":1,"employee_tasks_due_count":1,"employee_id":"uuid","employee_first_name":"First","employee_last_name":"Last","employee_email":"test@tmeil.com","due_date":"2022-11-23","due_type":"today","employee_user_account_id":2,"company_id":5,"login_link":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyGoalAndTaskDue should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":5,"user_account_id":2,"message_category":"employee_assignment_overdue","icon":"alert","created_by":2,"variables":{"employee_goals_due_count":1,"employee_tasks_due_count":1,"employee_id":"uuid","employee_first_name":"First","employee_last_name":"Last","employee_email":"test@tmeil.com","due_date":"2022-11-23","due_type":"today","employee_user_account_id":2,"company_id":5}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"test@tmeil.com","recipient_group":"user","email_communication_type":"employee_assignment_reminder_notification","company_id":5,"variables":{"employee_goals_due_count":1,"employee_tasks_due_count":1,"employee_id":"uuid","employee_first_name":"First","employee_last_name":"Last","employee_email":"test@tmeil.com","due_date":"2022-11-23","due_type":"today","employee_user_account_id":2,"company_id":5,"login_link":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyGoalAssigned should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":5,"user_account_id":234,"message_category":"employee_goal_assigned","icon":"goal","created_by":5,"variables":{"company_id":5,"goal_id":"5","goal_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"234","recipient_email":"test@tmeil.com","recipient_group":"user","email_communication_type":"employee_assignment_notification","company_id":5,"variables":{"company_id":5,"goal_id":"5","goal_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23","login_link":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyGoalAssigned should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":5,"user_account_id":234,"message_category":"employee_goal_assigned","icon":"goal","created_by":5,"variables":{"company_id":5,"goal_id":"5","goal_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"234","recipient_email":"test@tmeil.com","recipient_group":"user","email_communication_type":"employee_assignment_notification","company_id":5,"variables":{"company_id":5,"goal_id":"5","goal_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23","login_link":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyGoalCompleted should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":5,"user_account_id":234,"message_category":"employee_goal_mark_completed","icon":"goal","created_by":5,"variables":{"company_id":5,"goal_id":"5","goal_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","program_id":"23","assignor_display_name":"First2 Last2","assignor_user_account_id":5}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"234","recipient_email":"test@tmeil.com","recipient_group":"user","email_communication_type":"employee_assignment_completion_notification","company_id":5,"variables":{"company_id":5,"goal_id":"5","goal_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","program_id":"23","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"login_link":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyGoalCompleted should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":5,"user_account_id":234,"message_category":"employee_goal_mark_completed","icon":"goal","created_by":5,"variables":{"company_id":5,"goal_id":"5","goal_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","program_id":"23","assignor_display_name":"First2 Last2","assignor_user_account_id":5}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"234","recipient_email":"test@tmeil.com","recipient_group":"user","email_communication_type":"employee_assignment_completion_notification","company_id":5,"variables":{"company_id":5,"goal_id":"5","goal_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","program_id":"23","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"login_link":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyGoalDeleted should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":5,"user_account_id":234,"message_category":"employee_goal_deleted","icon":"goal","created_by":5,"variables":{"company_id":5,"goal_id":"5","goal_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"234","recipient_email":"test@tmeil.com","recipient_group":"user","email_communication_type":"employee_assignment_deleted_notification","company_id":5,"variables":{"company_id":5,"goal_id":"5","goal_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23","login_link":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyGoalDeleted should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":5,"user_account_id":234,"message_category":"employee_goal_deleted","icon":"goal","created_by":5,"variables":{"company_id":5,"goal_id":"5","goal_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"234","recipient_email":"test@tmeil.com","recipient_group":"user","email_communication_type":"employee_assignment_deleted_notification","company_id":5,"variables":{"company_id":5,"goal_id":"5","goal_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23","login_link":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyGoalUpdated should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":5,"user_account_id":234,"message_category":"employee_goal_updated","icon":"goal","created_by":234,"variables":{"company_id":5,"goal_id":"5","goal_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"234","recipient_email":"test@tmeil.com","recipient_group":"user","email_communication_type":"employee_assignment_updated_notification","company_id":5,"variables":{"company_id":5,"goal_id":"5","goal_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23","login_link":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyGoalUpdated should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":5,"user_account_id":234,"message_category":"employee_goal_updated","icon":"goal","created_by":234,"variables":{"company_id":5,"goal_id":"5","goal_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"234","recipient_email":"test@tmeil.com","recipient_group":"user","email_communication_type":"employee_assignment_updated_notification","company_id":5,"variables":{"company_id":5,"goal_id":"5","goal_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23","login_link":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyParticipantProgramInvitation should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"program_invitation","company_id":2,"variables":{"email":"kylie.tan@gmail.com","first_name":"Changi","program_name":"Test Program","company_name":"Bitcoin Incorporation","invite_link":"https://local-employee.pulsifi.me/profile/assessments"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyParticipantProgramInvitation should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"employee_program_invitation","icon":"program","created_by":2,"variables":{"email":"kylie.tan@gmail.com","first_name":"Changi","program_name":"Test Program","company_name":"Bitcoin Incorporation","invite_link":"https://local-employee.pulsifi.me/profile/assessments"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"program_invitation","company_id":2,"variables":{"email":"kylie.tan@gmail.com","first_name":"Changi","program_name":"Test Program","company_name":"Bitcoin Incorporation","invite_link":"https://local-employee.pulsifi.me/profile/assessments"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyParticipantProgramResultReady should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"0","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"program_result_ready","company_id":2,"variables":{"email":"kylie.tan@gmail.com","first_name":"Changi","program_name":"Test Program","invite_link":"https://local-employee.pulsifi.me/profile/assessments/programs/1/result"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyParticipantProgramResultReady should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":2,"user_account_id":2,"message_category":"employee_program_result_ready","icon":"program","created_by":2,"variables":{"email":"kylie.tan@gmail.com","first_name":"Changi","program_name":"Test Program","invite_link":"https://local-employee.pulsifi.me/profile/assessments/programs/1/result"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"2","recipient_email":"kylie.tan@gmail.com","recipient_group":"user","email_communication_type":"program_result_ready","company_id":2,"variables":{"email":"kylie.tan@gmail.com","first_name":"Changi","program_name":"Test Program","invite_link":"https://local-employee.pulsifi.me/profile/assessments/programs/1/result"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyTaskAssigned should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":5,"user_account_id":234,"message_category":"employee_task_assigned","icon":"task","created_by":5,"variables":{"company_id":5,"task_id":"5","task_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"234","recipient_email":"test@tmeil.com","recipient_group":"user","email_communication_type":"employee_assignment_notification","company_id":5,"variables":{"company_id":5,"task_id":"5","task_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23","login_link":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyTaskAssigned should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":5,"user_account_id":234,"message_category":"employee_task_assigned","icon":"task","created_by":5,"variables":{"company_id":5,"task_id":"5","task_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"234","recipient_email":"test@tmeil.com","recipient_group":"user","email_communication_type":"employee_assignment_notification","company_id":5,"variables":{"company_id":5,"task_id":"5","task_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23","login_link":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyTaskCompleted should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":5,"user_account_id":234,"message_category":"employee_task_mark_completed","icon":"task","created_by":5,"variables":{"company_id":5,"task_id":"5","task_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","program_id":"23","assignor_display_name":"First2 Last2","assignor_user_account_id":5}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"234","recipient_email":"test@tmeil.com","recipient_group":"user","email_communication_type":"employee_assignment_completion_notification","company_id":5,"variables":{"company_id":5,"task_id":"5","task_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","program_id":"23","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"login_link":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyTaskCompleted should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":5,"user_account_id":234,"message_category":"employee_task_mark_completed","icon":"task","created_by":5,"variables":{"company_id":5,"task_id":"5","task_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","program_id":"23","assignor_display_name":"First2 Last2","assignor_user_account_id":5}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"234","recipient_email":"test@tmeil.com","recipient_group":"user","email_communication_type":"employee_assignment_completion_notification","company_id":5,"variables":{"company_id":5,"task_id":"5","task_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","program_id":"23","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"login_link":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyTaskDeleted should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":5,"user_account_id":234,"message_category":"employee_task_deleted","icon":"task","created_by":5,"variables":{"company_id":5,"task_id":"5","task_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"234","recipient_email":"test@tmeil.com","recipient_group":"user","email_communication_type":"employee_assignment_deleted_notification","company_id":5,"variables":{"company_id":5,"task_id":"5","task_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23","login_link":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyTaskDeleted should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":5,"user_account_id":234,"message_category":"employee_task_deleted","icon":"task","created_by":5,"variables":{"company_id":5,"task_id":"5","task_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"234","recipient_email":"test@tmeil.com","recipient_group":"user","email_communication_type":"employee_assignment_deleted_notification","company_id":5,"variables":{"company_id":5,"task_id":"5","task_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23","login_link":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyTaskUpdated should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":5,"user_account_id":234,"message_category":"employee_task_updated","icon":"task","created_by":5,"variables":{"company_id":5,"task_id":"5","task_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"234","recipient_email":"test@tmeil.com","recipient_group":"user","email_communication_type":"employee_assignment_updated_notification","company_id":5,"variables":{"company_id":5,"task_id":"5","task_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23","login_link":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService notifyTaskUpdated should run without error 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"company_id":5,"user_account_id":234,"message_category":"employee_task_updated","icon":"task","created_by":5,"variables":{"company_id":5,"task_id":"5","task_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notification/push",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"234","recipient_email":"test@tmeil.com","recipient_group":"user","email_communication_type":"employee_assignment_updated_notification","company_id":5,"variables":{"company_id":5,"task_id":"5","task_title":"title","employee_id":"uuid","employee_user_account_id":234,"employee_email":"test@tmeil.com","employee_first_name":"First","employee_last_name":"Last","assignor_first_name":"First2","assignor_last_name":"Last2","assignor_display_name":"First2 Last2","assignor_user_account_id":5,"program_id":"23","login_link":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService sendManagerSubordinateProgressReport should not trigger push notification if user_account_id not more 0 1`] = `
+[
+  [
+    SendMessageCommand {
+      "input": {
+        "MessageBody": "{"recipient_id":"13861","recipient_email":"testemployeemultiplecompany0001@getnada.com","recipient_group":"user","email_communication_type":"manager_subordinate_progress_report","company_id":5,"variables":{"company_id":5,"company_name":"Bitcoin Incorporation","company_is_live":false,"manager_name":"Test Invite Employee Multiple","manager_employee_id":"c77021a7-cb4f-466c-9f51-b7cd73eaeecf","manager_first_name":"Test Invite","manager_user_account_id":13861,"manager_email":"testemployeemultiplecompany0001@getnada.com","total_action_completed":18,"total_action_overdue":16,"total_new_action":30,"total_goal_completed":6,"total_goal_overdue":12,"total_new_goal":35,"subordinates_summary":[{"employee_id":"7bda5803-31a9-47fb-8402-6c564c99b1a8","name":"camille mah","overdue_count":10,"new_count":13,"completed_count":5,"initial":"C"},{"employee_id":"3531b7f2-2c5e-4271-996c-665f2fd9bbc5","name":"Jay Learner 2","overdue_count":8,"new_count":0,"completed_count":0,"initial":"J"},{"employee_id":"14e2f87f-144b-4921-9808-dcedec9fcc5d","name":"Mah Yuen Tong Mah","overdue_count":3,"new_count":1,"completed_count":0,"initial":"M"},{"employee_id":"0a4ad655-3404-4933-bb7f-7c4249f151d8","name":"Awfiyah Najib","overdue_count":2,"new_count":4,"completed_count":0,"initial":"A"},{"employee_id":"a274e02a-c379-4029-bc62-775ea62ac3d3","name":"Huat Employee Test","overdue_count":2,"new_count":36,"completed_count":0,"initial":"H"}],"today_date":"31 Dec 2022","one_week_ago_date":"24 Dec 2022","employee_app_url":"https://local-employee.pulsifi.me"}}",
+        "QueueUrl": "https://test.pulsifi.me/queue/notitication/email",
+      },
+      "middlewareStack": {
+        "add": [Function],
+        "addRelativeTo": [Function],
+        "applyToStack": [Function],
+        "clone": [Function],
+        "concat": [Function],
+        "identify": [Function],
+        "remove": [Function],
+        "removeByTag": [Function],
+        "resolve": [Function],
+        "use": [Function],
+      },
+    },
+  ],
+]
+`;
+
+exports[`TalentManagementNotificationService sendManagerSubordinateProgressReport should trigger send email sqs 1`] = `
+{
+  "company_id": 5,
+  "email_communication_type": "manager_subordinate_progress_report",
+  "recipient_email": "testemployeemultiplecompany0001@getnada.com",
+  "recipient_group": "user",
+  "recipient_id": "13861",
+  "variables": {
+    "company_id": 5,
+    "company_is_live": false,
+    "company_name": "Bitcoin Incorporation",
+    "employee_app_url": "https://local-employee.pulsifi.me",
+    "manager_email": "testemployeemultiplecompany0001@getnada.com",
+    "manager_employee_id": "c77021a7-cb4f-466c-9f51-b7cd73eaeecf",
+    "manager_first_name": "Test Invite",
+    "manager_name": "Test Invite Employee Multiple",
+    "manager_user_account_id": 13861,
+    "one_week_ago_date": "24 Dec 2022",
+    "subordinates_summary": [
+      {
+        "completed_count": 5,
+        "employee_id": "7bda5803-31a9-47fb-8402-6c564c99b1a8",
+        "initial": "C",
+        "name": "camille mah",
+        "new_count": 13,
+        "overdue_count": 10,
+      },
+      {
+        "completed_count": 0,
+        "employee_id": "3531b7f2-2c5e-4271-996c-665f2fd9bbc5",
+        "initial": "J",
+        "name": "Jay Learner 2",
+        "new_count": 0,
+        "overdue_count": 8,
+      },
+      {
+        "completed_count": 0,
+        "employee_id": "14e2f87f-144b-4921-9808-dcedec9fcc5d",
+        "initial": "M",
+        "name": "Mah Yuen Tong Mah",
+        "new_count": 1,
+        "overdue_count": 3,
+      },
+      {
+        "completed_count": 0,
+        "employee_id": "0a4ad655-3404-4933-bb7f-7c4249f151d8",
+        "initial": "A",
+        "name": "Awfiyah Najib",
+        "new_count": 4,
+        "overdue_count": 2,
+      },
+      {
+        "completed_count": 0,
+        "employee_id": "a274e02a-c379-4029-bc62-775ea62ac3d3",
+        "initial": "H",
+        "name": "Huat Employee Test",
+        "new_count": 36,
+        "overdue_count": 2,
+      },
+    ],
+    "today_date": "31 Dec 2022",
+    "total_action_completed": 18,
+    "total_action_overdue": 16,
+    "total_goal_completed": 6,
+    "total_goal_overdue": 12,
+    "total_new_action": 30,
+    "total_new_goal": 35,
+  },
+}
+`;

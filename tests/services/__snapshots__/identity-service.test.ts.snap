@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IdentityService getUsersByUserAccounts should return an array of user accounts given a list of ids 1`] = `
+[
+  {
+    "email": "david@pulsif.me",
+    "first_name": "Abu",
+    "id": 1,
+    "last_name": "Akao",
+    "userApplications": [],
+  },
+]
+`;
